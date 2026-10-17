@@ -1,0 +1,30 @@
+{
+  "data": "synthetic only",
+  "seed": 42,
+  "train_vessels": 65,
+  "validation_vessels": 15,
+  "test_vessels": 20,
+  "forecast_seconds": 60,
+  "metrics": {
+    "constant_velocity": {
+      "ADE_m": 32.2,
+      "FDE_m": 61.72,
+      "RMSE_m": 42.28
+    },
+    "gru": {
+      "ADE_m": 40.29,
+      "FDE_m": 72.79,
+      "RMSE_m": 50.54
+    },
+    "lstm": {
+      "ADE_m": 51.3,
+      "FDE_m": 93.84,
+      "RMSE_m": 65.62
+    },
+    "hybrid_gru": {
+      "ADE_m": 31.68,
+      "FDE_m": 60.58,
+      "RMSE_m": 41.33
+    }
+  }
+}
